@@ -24,5 +24,11 @@ $("#carousel-prev").click(function() {
     }
   });
 
+$(".circle").hover(function(){
+    $(this).css("background", "#dfdfdf");
+    }, function(){
+    $(this).css("background-color", "white");
+});
+
 
 });
