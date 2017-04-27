@@ -94,6 +94,15 @@ nav {
     background-color: #fff;
 }
 
+#carousel-section {
+    font-family: Crimson Text;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+
+}
+
 #about {
     color: black;
     font-size: 15px;
