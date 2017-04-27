@@ -32,5 +32,20 @@ $(".circle").hover(function(){
 
 
 
+  $("#circle").click(function() {
+    $('body').removeClass("no-scroll");
+    $('html, body').animate( {
+      scrollTop: $( $.attr(this, 'href')).offset().top
+    }, 300);
+      setTimeout(function() {
+        $(".sidebar-container").removeClass("sidebar-active");
+        $("#sidebar-button").removeClass("button-active");
+        $(".page-wrapper").removeClass("wrapper-active")
+        }, 300);
+    return false;
+
+  });
+
+
 
 });
