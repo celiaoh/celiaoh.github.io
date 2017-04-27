@@ -124,6 +124,13 @@ nav {
     margin-top: -30px;
     cursor: pointer;
 }
+
+.q6-item:hover {
+    -webkit-transform: scale(1.25);
+    transition-duration: 0.2s, 0.2s;
+
+}
+
 #q6-spine {
     width: 720px;
     height: 4px;
