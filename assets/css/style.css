@@ -44,7 +44,7 @@ nav {
 
 .circle:hover {
     -webkit-transform: scale(1.25);
-    transition: linear 0.2s;
+    transition-duration: 0.2s, 0.2s;
 }
 
 
