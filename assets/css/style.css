@@ -1,0 +1,43 @@
+
+body {
+	background-color: #C2E8E7;
+	font-family: 'Asar', serif;
+	font-family: 'Crimson Text', serif;
+}
+
+#name {
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: Crimson Text;
+	color: #364845;
+}
+
+
+#container {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: calc(50% - 240px);
+    left: calc(50% - 240px);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: white;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: Crimson Text;
+    color: grey;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.main {
+	text-decoration: none;
+}
