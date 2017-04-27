@@ -43,6 +43,7 @@ nav {
 }
 
 .circle:hover {
+    transform: scale(1.25);
     -webkit-transform: scale(1.25);
     transition-duration: 0.2s, 0.2s;
 }
@@ -126,6 +127,7 @@ nav {
 }
 
 .q6-item:hover {
+    transform: scale(1.25);
     -webkit-transform: scale(1.25);
     transition-duration: 0.2s, 0.2s;
 
@@ -177,7 +179,7 @@ nav {
 }
 
 
-/* Styling for the carousel previous button */
+/* prev button */
 #carousel-prev {
     position: absolute;
     width: 40px;
@@ -192,7 +194,7 @@ nav {
     -webkit-transition: all 0.3s;
 }
 
-/* Styling for the carousel next button */
+/* next button */
 #carousel-next {
     position: absolute;
     width: 40px;
@@ -211,7 +213,7 @@ nav {
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: eight: 100%;
 }
 
 .carousel-img {
