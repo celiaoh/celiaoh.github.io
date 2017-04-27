@@ -70,6 +70,11 @@ nav {
 
 #contact-section {
     background-color: #8bb2af;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: Crimson Text;
+    letter-spacing: 2px;
 }
 
 #portfolio-section {
@@ -93,6 +98,7 @@ nav {
     float: left;
     margin-left: 140px;
     margin-top: -30px;
+    cursor: pointer;
 }
 #q6-spine {
     width: 720px;
