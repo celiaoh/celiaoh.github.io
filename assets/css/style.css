@@ -39,10 +39,42 @@ nav {
     font-family: Crimson Text;
     color: grey;
     margin-top: 15px;
-    text-decoration: none;
 }
 
 .noDecoration, a:link, a:visited {
     text-decoration: none;
     color: grey;
+}
+
+.page-wrapper {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+
+.section {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+}
+
+#about-section {
+    background-color: #2bde73;
+}
+
+#contact-section {
+    background-color: #8bb2af;
+}
+
+#portfolio-section {
+    background-color: #fff;
+}
+
+#about {
+    color: black;
 }
