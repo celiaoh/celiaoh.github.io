@@ -61,10 +61,11 @@ nav {
     position: relative;
 }
 
-}
 
 #about-section {
-    background-color: #2bde73;
+    background-color: #fff;
+    font-family: Asar;
+    text-align: center;
 }
 
 #contact-section {
@@ -77,4 +78,37 @@ nav {
 
 #about {
     color: black;
+}
+
+
+/* CONTACT INTO LINE */
+
+.q6-item {
+    width: 30px;
+    height: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 50%;
+    border: 3px solid #857c78;
+    float: left;
+    margin-left: 140px;
+    margin-top: -30px;
+}
+#q6-spine {
+    width: 720px;
+    height: 4px;
+    background: #857c78;
+    border-radius: 2px;
+
+}
+#q6-container {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#question6 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -50px;
 }
